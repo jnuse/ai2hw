@@ -1,0 +1,9 @@
+{
+  "name": "smart-assistant",
+  "version": "1.0.0",
+  "description": "智能职场助手小程序",
+  "main": "main.js",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/chat/chat",
+    "pages/history/history",
+    "pages/debug/history-debug"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "智能职场助手",
+    "navigationBarBackgroundColor": "#1565C0",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,117 @@
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+.navbar {
+  background-color: #1565C0;
+  height: 90rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 32rpx;
+  position: fixed;
+  top: 43px;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 0 20rpx;
+}
+.navbar-left, .navbar-right {
+  width: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-icon {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.navbar-title {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.history-list {
+  margin-top: calc(43px + 90rpx); /* 系统状态栏 + 导航栏高度 */
+  margin-bottom: 120rpx;
+  flex: 1;
+}
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 30rpx;
+  margin-bottom: 2rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+.history-content {
+  flex: 1;
+}
+.history-title {
+  font-size: 32rpx;
+  color: #333;
+  margin-bottom: 10rpx;
+  display: block;
+}
+.history-time {
+  font-size: 24rpx;
+  color: #999;
+}
+.history-actions {
+  display: flex;
+  align-items: center;
+}
+.history-delete {
+  color: #999;
+  font-size: 40rpx;
+  margin-right: 20rpx;
+  padding: 10rpx;
+}
+.history-arrow {
+  color: #ccc;
+  font-size: 40rpx;
+}
+.empty-tip {
+  text-align: center;
+  color: #999;
+  padding: 100rpx 0;
+}
+.loading-more {
+  text-align: center;
+  color: #999;
+  padding: 20rpx 0;
+}
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  background-color: white;
+  box-shadow: 0 -2rpx 10rpx rgba(0, 0, 0, 0.1);
+  height: 120rpx;
+  padding-bottom: 35rpx;
+}
+.nav-btn {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+}
+.nav-btn.active {
+  color: #1565C0;
+  font-weight: bold;
+}
+.nav-text {
+  font-size: 30rpx;
+}
+

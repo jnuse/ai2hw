@@ -1,0 +1,7 @@
+pymysql>=1.0.2
+faker>=13.3.4
+flask>=2.0.0
+flask-cors>=3.0.10
+pyjwt>=2.1.0
+requests>=2.25.1
+websocket-client>=1.4.0

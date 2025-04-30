@@ -1,0 +1,178 @@
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+.navbar {
+  background-color: #1565C0;
+  height: 90rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 32rpx;
+  position: fixed;
+  top: 43px;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 0 20rpx;
+}
+.navbar-left, .navbar-right {
+  width: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-icon {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.navbar-title {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.chat-content {
+  flex: 1;
+  padding: 20rpx;
+  margin-top: calc(43px + 90rpx + 20rpx); /* 系统状态栏 + 导航栏高度 + 额外间距 */
+  margin-bottom: 180rpx;
+}
+.message-item {
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.message-user {
+  flex-direction: row-reverse;
+}
+.avatar {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.message-bubble {
+  max-width: 70%;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  margin: 0 20rpx;
+  word-break: break-all;
+}
+.message-assistant .message-bubble {
+  background-color: white;
+  color: #333;
+}
+.message-user .message-bubble {
+  background-color: #1565C0;
+  color: white;
+}
+.input-area {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 20rpx;
+  box-shadow: 0 -2rpx 10rpx rgba(0, 0, 0, 0.1);
+}
+.input-box {
+  display: flex;
+  background-color: #f5f5f5;
+  border-radius: 10rpx;
+  padding: 15rpx;
+}
+.input-box input {
+  flex: 1;
+  height: 70rpx;
+}
+.send-btn {
+  width: 120rpx;
+  height: 70rpx;
+  background-color: #1565C0;
+  color: white;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8rpx;
+}
+.bottom-nav {
+  display: flex;
+  margin-top: 20rpx;
+  border-top: 1rpx solid #eee;
+  padding-top: 20rpx;
+  padding-bottom: 35rpx;
+}
+.nav-btn {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80rpx;
+  color: #666;
+}
+.nav-btn.active {
+  color: #1565C0;
+  font-weight: bold;
+}
+.nav-text {
+  font-size: 30rpx;
+}
+
+/* 问题示例弹窗样式 */
+.example-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.example-container {
+  width: 90%;
+  max-height: 70%;
+  background-color: #fff;
+  border-radius: 12rpx;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.example-header {
+  padding: 25rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+}
+.example-title {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.example-close {
+  font-size: 40rpx;
+  color: #999;
+  padding: 0 20rpx;
+}
+.example-list {
+  flex: 1;
+  max-height: 800rpx;
+}
+.example-item {
+  padding: 25rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+  font-size: 30rpx;
+}
+.example-item:active {
+  background-color: #f5f5f5;
+}
+

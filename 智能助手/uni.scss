@@ -1,0 +1,50 @@
+/**
+ * uni-app内置的常用样式变量
+ */
+
+/* 颜色变量 */
+
+// 主题色
+$uni-primary: #1565C0;
+$uni-primary-light: #1E88E5;
+$uni-primary-dark: #0D47A1;
+
+// 辅助色
+$uni-success: #4CAF50;
+$uni-warning: #FFC107;
+$uni-error: #F44336;
+$uni-info: #2196F3;
+
+// 文字颜色
+$uni-text-color: #333; // 主要文字
+$uni-text-color-inverse: #fff; // 反色
+$uni-text-color-grey: #999; // 辅助灰色，如副标题
+$uni-text-color-placeholder: #ccc; // 占位符
+$uni-text-color-disable: #c0c0c0;
+
+// 背景颜色
+$uni-bg-color: #ffffff;
+$uni-bg-color-grey: #f8f8f8;
+$uni-bg-color-hover: #f1f1f1; // 点击状态
+$uni-bg-color-mask: rgba(0, 0, 0, 0.4); // 遮罩
+
+/* 尺寸变量 */
+
+// 文字尺寸
+$uni-font-size-sm: 24rpx;
+$uni-font-size-base: 28rpx;
+$uni-font-size-lg: 32rpx;
+$uni-font-size-xl: 36rpx;
+
+// 边框尺寸
+$uni-border-radius-sm: 4rpx;
+$uni-border-radius-base: 8rpx;
+$uni-border-radius-lg: 12rpx;
+$uni-border-radius-circle: 50%;
+
+// 间距
+$uni-spacing-xs: 10rpx;
+$uni-spacing-sm: 20rpx;
+$uni-spacing-base: 30rpx;
+$uni-spacing-lg: 40rpx;
+$uni-spacing-xl: 50rpx;

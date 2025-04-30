@@ -1,0 +1,8 @@
+请在此目录中放置以下图片文件：
+
+1. logo.png - 应用logo，建议尺寸200x200px
+2. user-avatar.png - 用户头像，建议尺寸80x80px
+3. assistant-avatar.png - 助手头像，建议尺寸80x80px
+4. empty.png - 空状态图片，建议尺寸200x200px
+
+所有图片建议使用PNG格式，支持透明背景。
